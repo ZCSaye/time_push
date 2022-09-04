@@ -1,7 +1,7 @@
 {
   "app_id": "wxf25192f9da7c4c5c",
   "app_secret": "260611694596a7da43834b072afb6977",
-  "template_id": "-XzwVr1WvCDwK71M9ZOpl0AaPnLhnXlLsjf-CHdGaNI",
+  "template_id": "BqR9HtUIj3QRO4tCYOQtai7vZC7hX20YB2D-YAMkT2o",
   "user": [
     "oAnnO6pdDFYaT8-yrU8LKxxOSy4E",
     "oAnnO6ri7cpCUyHjBgye3B3JLNAw"
@@ -12,11 +12,11 @@
   "birthday2": "1994-01-01",
   "birthday3": "1997-01-03",
   "love_date": "2020-08-28",
-  "love_love_date": "2020-08-28",
-  "marry_date": "2021-10-18",
+  "prove_date": "2021-10-18",
+  "marry_date": "2022-05-01",
   "Whether_Eng": "False",
-  "Whether_caihongpi": "False",
-  "Whether_lizhi": "False,",
+  "Whether_caihongpi": "true",
+  "Whether_lizhi": "true,",
   "Whether_tip": "true",
   "Whether_health": "true",
   "Whether_lucky": "true",

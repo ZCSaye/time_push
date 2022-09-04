@@ -228,12 +228,12 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
     love_days = str(today.__sub__(love_date)).split(" ")[0]
 
     # 获取恋爱时间日期格式
-    love_love_year = int(config["love_love_date"].split("-")[0])
-    love_love_month = int(config["love_love_date"].split("-")[1])
-    love_love_day = int(config["love_love_date"].split("-")[2])
-    love_love_date = date(love_love_year, love_love_month, love_love_day)
+    prove_year = int(config["prove_date"].split("-")[0])
+    prove_month = int(config["prove_date"].split("-")[1])
+    prove_day = int(config["prove_date"].split("-")[2])
+    prove_date = date(prove_year, prove_month, prove_day)
     # 获取恋爱时间日期差
-    love_love_days = str(today.__sub__(love_love_date)).split(" ")[0]
+    prove_days = str(today.__sub__(prove_date)).split(" ")[0]
 
     # 获取结婚时间日期格式
     marry_year = int(config["marry_date"].split("-")[0])
@@ -278,8 +278,8 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
                 "value": love_days,
                 "color": get_color()
             },
-            "love_love_days": {
-                "value": love_love_days,
+            "prove_days": {
+                "value": prove_days,
                 "color": get_color()
             },
             "marry_days": {
